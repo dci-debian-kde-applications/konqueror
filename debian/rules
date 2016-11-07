@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+override_dh_auto_install:
+	dh_auto_install -Skf5 --parallel
+	rm -rf /workspace/build/debian/tmp/usr/lib/x86_64-linux-gnu/libkbookmarkmodel_private.so
+
+override_dh_compress:
+	dh_compress '-X.dcl' '-X.docbook' '-X-license' '-X.tag' '-X.sty' '-X.el'
+	rm -rf /workspace/build/debian/tmp/usr/share/man/man1/kfind.1
+
+override_dh_auto_test:
+	# Disable dh_auto_test at build time
+	:
+
+override_dh_strip:
+	$(overridden_command) --dbgsym-migration='kde-baseapps-dbg (<= 4:15.12.1-1~~)'
