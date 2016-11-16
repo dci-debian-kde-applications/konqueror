@@ -16,6 +16,8 @@ usr/share/applications/kfmclient_*.desktop
 usr/share/applications/konqbrowser.desktop
 usr/share/config.kcfg/konqueror.kcfg
 usr/share/dbus-1/interfaces/org.kde.Konqueror.*.xml
+usr/share/doc/HTML/*/kcontrol5/
+usr/share/doc/HTML/*/konqueror/
 usr/share/icons/hicolor/*/apps/konqueror.png
 usr/share/icons/hicolor/*/apps/webengine.png
 usr/share/kcmcss/
