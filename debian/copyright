@@ -1,0 +1,59 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: konqueror
+Source: http://download.kde.org
+
+Files: *
+Copyright: (C) 1996-2016 Started by Torben Weis <weis@kde.org>
+           (C) 1996-2016 David Faure <faure@kde.org>
+           (C) 1996-2016 Simon Hausmann <hausmann@kde.org>
+           (C) 1996-2016 Matthias Welk <welk@fokus.gmd.de>
+           (C) 1996-2016 Michael Reiher <michael.reiher@gmx.de>
+           (C) 1996-2016 Alexander Neundorf <neundorf@kde.org> (List views)
+           (C) 1996-2016 Michael Brade <brade@kde.org> (List Views, I/O lib)
+           (C) 1996-2016 Lars Knoll <knoll@kde.org> (HTML rendering engine)
+           (C) 1996-2016 Antti Koivisto <koivisto@kde.org> (HTML rendering engine)
+           (C) 1996-2016 Waldo Bastian <bastian@kde.org> (HTML rendering engine)
+           (C) 1996-2016 Matt Koss <koss@miesto.sk> (I/O lib)
+           (C) 1996-2016 Stephan Kulow <coolo@kde.org> (I/O lib)
+           (C) 1996-2016 Richard Moore <rich@kde.org> (Java applet support)
+License: GPL-2+
+
+Files: debian/*
+Copyright: (C) 2016 Raymond Wooninck <tittiatcoke@gmail.com>
+License: GPL-2+
+
+Files: webenginepart/*
+Copyright: (C) 2009 Dawit Alemayehu <adawit@kde.org>
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published by the
+ Free Software Foundation; either version 2.1 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

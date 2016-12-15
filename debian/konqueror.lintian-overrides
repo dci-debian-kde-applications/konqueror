@@ -1,0 +1,4 @@
+konqueror: package-name-doesnt-match-sonames libkdeinit5-kfmclient libkdeinit5-konqueror libkonquerorprivate5 libkwebenginepartlib
+konqueror: shlib-without-versioned-soname usr/lib/x86_64-linux-gnu/libkdeinit5_kfmclient.so libkdeinit5_kfmclient.so
+konqueror: shlib-without-versioned-soname usr/lib/x86_64-linux-gnu/libkwebenginepartlib.so libkwebenginepartlib.so
+konqueror: shlib-without-versioned-soname usr/lib/x86_64-linux-gnu/libkdeinit5_konqueror.so libkdeinit5_konqueror.so
