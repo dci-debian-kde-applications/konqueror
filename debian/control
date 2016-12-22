@@ -52,12 +52,10 @@ Description: advanced file manager, web browser and document viewer
  customizable applications available.
  .
  This package is part of the KDE base applications module.
-Breaks: ase-data (<< 4:4.7.2), kde-baseapps-data (<< 4:4.8.4)
-Replaces: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
 
 Package: konq-plugins
 Architecture: any
-Depends: konqueror (>= 4:4.1.0), ${misc:Depends}, ${shlibs:Depends}
+Depends: konqueror, ${misc:Depends}, ${shlibs:Depends}
 Enhances: konqueror
 Recommends: imagemagick
 Description: plugins for Konqueror, the KDE file/web/document browser
