@@ -37,7 +37,7 @@ Section: web
 Architecture: any
 Provides: info-browser, man-browser, www-browser
 Depends: dolphin, install-info, ${misc:Depends}, ${shlibs:Depends}
-Recommends: kfind, kpart-webkit
+Recommends: kfind
 Description: advanced file manager, web browser and document viewer
  Konqueror is the KDE web browser and advanced file manager.
  .
