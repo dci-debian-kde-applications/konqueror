@@ -49,6 +49,7 @@ usr/share/kservices5/filebehavior.desktop
 usr/share/kservices5/fsview_part.desktop
 usr/share/kservices5/khtml_*.desktop
 usr/share/kservices5/webarchivethumbnail.desktop
+usr/share/locale/*/LC_MESSAGES/adblock.mo
 usr/share/locale/*/LC_MESSAGES/akregator_konqplugin.mo
 usr/share/locale/*/LC_MESSAGES/autorefresh.mo
 usr/share/locale/*/LC_MESSAGES/babelfish.mo
