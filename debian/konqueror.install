@@ -1,4 +1,5 @@
 etc/xdg/autostart/konqy_preload.desktop
+etc/xdg/konqueror.categories
 usr/bin/kfmclient
 usr/bin/konqueror
 usr/lib/*/libkdeinit5_kfmclient.so
