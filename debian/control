@@ -110,7 +110,7 @@ Description: core libraries for Konqueror
 Package: libkf5konq-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5konq6 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5konq6 (= ${binary:Version}), libkf5xmlgui-dev, ${misc:Depends}
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
