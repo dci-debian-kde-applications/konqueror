@@ -32,7 +32,6 @@ usr/share/kservices5/org.kde.konqueror.desktop
 usr/share/kservices5/webenginepart.desktop
 usr/share/kservicetypes5/konqaboutpage.desktop
 usr/share/kwebkitpart/
-usr/share/kxmlgui5/konqueror/
 usr/share/kxmlgui5/webenginepart/
 usr/share/locale/*/LC_MESSAGES/kcmbookmarks.mo
 usr/share/locale/*/LC_MESSAGES/kcmkonq.mo
