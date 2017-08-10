@@ -33,4 +33,11 @@ usr/share/kservicetypes5/konqaboutpage.desktop
 usr/share/kwebkitpart/
 usr/share/kxmlgui5/konqueror/
 usr/share/kxmlgui5/webenginepart/
+usr/share/locale/*/LC_MESSAGES/kcmbookmarks.mo
+usr/share/locale/*/LC_MESSAGES/kcmkonq.mo
+usr/share/locale/*/LC_MESSAGES/kcmkonqhtml.mo
+usr/share/locale/*/LC_MESSAGES/kcmperformance.mo
+usr/share/locale/*/LC_MESSAGES/kfmclient.mo
+usr/share/locale/*/LC_MESSAGES/konqueror.mo
+usr/share/locale/*/LC_MESSAGES/webenginepart.mo
 usr/share/metainfo/org.kde.konqueror.appdata.xml

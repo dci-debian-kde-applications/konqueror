@@ -38,6 +38,8 @@ Architecture: any
 Provides: info-browser, man-browser, www-browser
 Depends: dolphin, install-info, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kfind
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: advanced file manager, web browser and document viewer
  Konqueror is the KDE web browser and advanced file manager.
  .
@@ -57,6 +59,8 @@ Package: konq-plugins
 Architecture: any
 Depends: konqueror, ${misc:Depends}, ${shlibs:Depends}
 Enhances: konqueror
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: imagemagick
 Description: plugins for Konqueror, the KDE file/web/document browser
  This package contains a variety of useful plugins for Konqueror, the
@@ -95,6 +99,8 @@ Package: libkf5konq6
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
