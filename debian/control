@@ -57,7 +57,7 @@ Description: advanced file manager, web browser and document viewer
 
 Package: konq-plugins
 Architecture: any
-Depends: konqueror, ${misc:Depends}, ${shlibs:Depends}
+Depends: konqueror (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Enhances: konqueror
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
