@@ -1,3 +1,10 @@
+konqueror (4:17.08.1-2~) UNRELEASED; urgency=medium
+
+  * New revision
+  * Update uploaders list as requested by MIA team
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 18:02:01 +0100
+
 konqueror (4:17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1)
