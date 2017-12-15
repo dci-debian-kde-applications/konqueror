@@ -11,6 +11,8 @@ konqueror (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove the unused kded5-dev build dependency.
   * Remove the libqt5webengine5-dev alternative build dependency for
     qtwebengine5-dev.
+  * Remove the extra kde-l10n-ast, and kde-l10n-eo breaks/replaces, as already
+    included in ${kde-l10n:all}.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:01 +0100
 
