@@ -22,6 +22,7 @@ konqueror (4:17.08.3-0r1) UNRELEASED; urgency=medium
       where it is available: amd64 arm64 armhf i386 mipsel.
   * Invoke dh_install with --fail-missing, so there is no risk of forgetting
     files.
+  * Simplify the install files.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:01 +0100
 
