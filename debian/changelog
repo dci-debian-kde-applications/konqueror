@@ -9,6 +9,8 @@ konqueror (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Remove trailing whitespaces in changelog.
   * Remove the unused kded5-dev build dependency.
+  * Remove the libqt5webengine5-dev alternative build dependency for
+    qtwebengine5-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:01 +0100
 
