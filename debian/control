@@ -84,6 +84,7 @@ Architecture: any
 Provides: info-browser, man-browser, www-browser
 Depends: dolphin, install-info, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kfind
+Suggests: konq-plugins
 Breaks: ${kde-l10n:all},
 Replaces: ${kde-l10n:all},
 Description: advanced file manager, web browser and document viewer
