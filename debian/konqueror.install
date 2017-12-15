@@ -1,3 +1,4 @@
+#!/usr/bin/dh-exec
 etc/xdg/autostart/konqy_preload.desktop
 etc/xdg/konqueror.categories
 usr/bin/kfmclient
@@ -5,12 +6,12 @@ usr/bin/konqueror
 usr/lib/*/libkdeinit5_kfmclient.so
 usr/lib/*/libkdeinit5_konqueror.so
 usr/lib/*/libkonquerorprivate.so.*
-usr/lib/*/libkwebenginepartlib.so
+[amd64 arm64 armhf i386 mipsel] usr/lib/*/libkwebenginepartlib.so
 usr/lib/*/qt5/plugins/kcm_bookmarks.so
 usr/lib/*/qt5/plugins/kcm_konq.so
 usr/lib/*/qt5/plugins/kcm_konqhtml.so
 usr/lib/*/qt5/plugins/kcm_performance.so
-usr/lib/*/qt5/plugins/kf5/parts/webenginepart.so
+[amd64 arm64 armhf i386 mipsel] usr/lib/*/qt5/plugins/kf5/parts/webenginepart.so
 usr/lib/*/qt5/plugins/konq_aboutpage.so
 usr/share/applications/kfmclient.desktop
 usr/share/applications/kfmclient_*.desktop
@@ -20,7 +21,7 @@ usr/share/dbus-1/interfaces/org.kde.Konqueror.*.xml
 usr/share/doc/HTML/*/kcontrol5/
 usr/share/doc/HTML/*/konqueror/
 usr/share/icons/hicolor/*/apps/konqueror.png
-usr/share/icons/hicolor/*/apps/webengine.png
+[amd64 arm64 armhf i386 mipsel] usr/share/icons/hicolor/*/apps/webengine.png
 usr/share/kcmcss/
 usr/share/kcontrol/pics/*png
 usr/share/konqueror/
@@ -29,10 +30,10 @@ usr/share/kservices5/kcmkonqyperformance.desktop
 usr/share/kservices5/kcmperformance.desktop
 usr/share/kservices5/konq_aboutpage.desktop
 usr/share/kservices5/org.kde.konqueror.desktop
-usr/share/kservices5/webenginepart.desktop
+[amd64 arm64 armhf i386 mipsel] usr/share/kservices5/webenginepart.desktop
 usr/share/kservicetypes5/konqaboutpage.desktop
 usr/share/kwebkitpart/
-usr/share/kxmlgui5/webenginepart/
+[amd64 arm64 armhf i386 mipsel] usr/share/kxmlgui5/webenginepart/
 usr/share/locale/*/LC_MESSAGES/kcmbookmarks.mo
 usr/share/locale/*/LC_MESSAGES/kcmkonq.mo
 usr/share/locale/*/LC_MESSAGES/kcmkonqhtml.mo

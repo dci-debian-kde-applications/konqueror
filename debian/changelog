@@ -14,6 +14,12 @@ konqueror (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove the extra kde-l10n-ast, and kde-l10n-eo breaks/replaces, as already
     included in ${kde-l10n:all}.
   * Add back the konq-plugins suggest in konqueror.
+  * Make konqueror buildable also without QtWebEngine:
+    - build the code using it conditionally; patch optional-qtwebengine.diff
+    - add the dh-exec build dependency
+    - restrict the webengine-related files on architectures with QtWebEngine
+    - restrict the qtwebengine5-dev build dependency on the architectures
+      where it is available: amd64 arm64 armhf i386 mipsel.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:01 +0100
 
