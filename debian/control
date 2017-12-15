@@ -34,7 +34,7 @@ Build-Depends: cmake (>= 2.8.12~),
                qtscript5-dev,
                qtwebengine5-dev (>= 5.5.0~) | libqt5webengine5-dev,
                zlib1g-dev,
-Standards-Version: 4.1.0
+Standards-Version: 4.1.2
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/konqueror.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/konqueror.git
