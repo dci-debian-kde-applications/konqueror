@@ -1,4 +1,6 @@
-konqueror (4:17.08.3-0r1) UNRELEASED; urgency=medium
+konqueror (4:17.08.3-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * Update uploaders list as requested by MIA team
@@ -24,7 +26,7 @@ konqueror (4:17.08.3-0r1) UNRELEASED; urgency=medium
     files.
   * Simplify the install files.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:01 +0100
+ -- Pino Toscano <pino@debian.org>  Fri, 15 Dec 2017 19:10:25 +0100
 
 konqueror (4:17.08.1-1) experimental; urgency=medium
 
