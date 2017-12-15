@@ -7,6 +7,7 @@ konqueror (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:01 +0100
 
@@ -84,6 +85,6 @@ konqueror (4:16.12.0-0neon) xenial; urgency=medium
 
 konqueror (4:16.11.90-0neon) xenial; urgency=medium
 
-  * Initial release. 
+  * Initial release.
 
  -- Raymond Wooninck <tittiatcoke@gmail.com>  Mon, 07 Nov 2016 18:50:18 +0100
