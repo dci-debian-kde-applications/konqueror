@@ -2,6 +2,8 @@ konqueror (4:17.08.3-2) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Bump Standards-Version to 4.1.3, no changes required.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Dec 2017 13:01:21 +0100
 
