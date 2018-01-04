@@ -1,0 +1,55 @@
+---
+name: konqueror
+version: 17.08.1
+summary: advanced file manager, web browser and document viewer
+description: |-
+ Konqueror is the KDE web browser and advanced file manager.
+ .
+ Konqueror is a standards-compliant web browser, supporting HTML 4.01, Java,
+ JavaScript, CSS3, and Netscape plugins such as Flash.
+ .
+ It supports advanced file management on local UNIX filesystems, with flexible
+ views, network transparency, and embedded file viewing.
+ .
+ It is the canvas for many KDE technologies, from remote file access via KIO to
+ component embedding via the KParts object interface, making it one of the most
+ customizable applications available.
+confinement: strict
+grade: stable
+apps:
+    kexi:
+        command: kf5-launch konqueror
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kexi:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5kdelibs4support-dev
+        - libtidy-dev
+        - libx11-dev
+        source: https://download.kde.org/stable/applications/17.08.1/src/konqueror-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
